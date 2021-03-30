@@ -1,0 +1,59 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em)
+{
+ .accesories-img
+ {
+    width: 200px;
+    margin: 10px;
+    padding-top: 10px
+
+ }
+ .brands__img 
+ {
+     flex-direction: column-reverse;
+     margin: 10px;
+     padding-left: 300px;
+     padding: auto;
+ }
+ .brands__text
+ {
+     text-align: center;
+     font-size: 10px;
+ }
+ .policy
+ {
+     flex-direction: column-reverse;
+ }
+.promo__collection 
+{
+    flex-direction: column-reverse;
+    width: 400px;
+    margin: 7px;
+    padding-top: 10px
+}
+
+}
+
+/* Tablet: wwidth >= 768px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em)
+{
+    .carousel-item
+    {
+        flex-direction: column-reverse;
+    }
+    .accesories-img
+    {
+    width: 500px;
+    margin: 10px;
+    padding-top: 10px
+    }
+
+    .brands__img
+    {
+        width: 600px;
+    }
+    .promo__collection 
+    {
+        width: 600px;
+    }
+}
